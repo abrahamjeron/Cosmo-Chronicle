@@ -1,0 +1,49 @@
+*{
+    font-family: 'Space Grotesk';
+}
+body{
+    overflow: hidden;
+    background-image: url("./Images/Cosmic\ info.svg");
+    background-size: cover;
+}
+#logo{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 5.2px;
+    color: white;
+    text-decoration: none;
+}
+#nasaimgs{
+    position: relative;
+    left: 45px;
+    top: 35px;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+}
+.sidedescription{
+    position: relative;
+    left: 700px;
+    color: white;
+    font-size: 2rem;
+    bottom: 370px;
+
+}
+.aboutimg{
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+    color: white;
+    width: 1300px;
+    height: 270px;
+    font-size: 1.2rem;
+    overflow-y: scroll;
+    scrollbar-color: rgb(0, 0, 0);
+    background-color: rgba(72, 72, 72, 0.564);
+    border-radius: 25px 25px 0 0;
+    padding-left: 30px;
+    letter-spacing: 4.5px;
+}

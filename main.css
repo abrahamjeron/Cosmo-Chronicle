@@ -1,0 +1,281 @@
+
+*{
+    font-family: 'Space Grotesk';
+}
+body{
+    overflow: hidden;
+    background-image: url("./Images/Main\ page.svg");
+    background-size: cover;
+}
+#logo{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 5.2px;
+    color: white;
+    text-decoration: none;
+}
+.date{
+    color: white;
+    position: relative;
+    left: 36%;
+    top: 100px;
+    font-size: 1.7rem;
+    letter-spacing: 5.2px;
+    font-weight: bolder;
+}
+.scroll-item{
+    position: relative;
+    top: 130px;
+    height: 550px;
+    overflow-x: scroll;
+    scrollbar-color: rgba(255, 255, 255, 0);
+}
+.pod5{
+    background-image: url("./Images/Frame\ 6.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    transition: 0.7s;
+    height: 123px;
+    width: 900px;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod5 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod5:hover{
+    transform: scale(1.2);
+    box-shadow:  rgba(255, 255, 255, 0.29);
+}
+
+.pod3{
+    background-image: url("./Images/Frame\ 5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    transition: 0.7s;
+    height: 123px;
+    width: 900px;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod3 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod3:hover{
+    transform: scale(1.2);
+    box-shadow:  rgba(255, 255, 255, 0.29);
+}
+#astro{
+    color: white;
+    position: relative;
+    left: 370px;
+    bottom: 90px;
+    font-size: 1.2rem;
+}
+
+.pod4{
+    background-image: url("./Images/Frame\ 6.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    transition: 0.7s;
+    height: 123px;
+    width: 900px;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod4 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod4:hover{
+    transform: scale(1.2);
+    box-shadow:  rgba(255, 255, 255, 0.29);
+}
+.pod{
+    background-image: url("./Images/Frame\ 3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+    height: 123px;
+    width: 900px;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod:hover{
+    background-size: cover;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+.pod4{
+    background-image: url("./Images/Frame\ 11.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.7s;
+    height: 163px;
+    width: 920px;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod4 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod4:hover{
+    background-size: cover;
+    height: 160px;
+    width: 920px;
+    transform: scale(1.2);
+}
+.pod2{
+    background-image: url("./Images/roadster.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    transition: 0.7s;
+    height: 163px;
+    width: 920px;
+    position: relative;
+    left: 230px;
+    border-radius: 15px;
+}
+.pod2 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod2:hover{
+    background-size: cover;
+    height: 160px;
+    width: 920px;
+    transform: scale(1.2);
+    box-shadow:  rgba(255, 255, 255, 0.29);
+}
+
+.pod6{
+    background-image: url("./Images/Frame\ 4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1001;
+    height: 143px;
+    width: 910px;
+    transition: 0.7s;
+    position: relative;
+    left: 240px;
+    border-radius: 15px;
+}
+.pod6 h2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pod6:hover{
+    background-size: cover;
+    transform: scale(1.2);
+    box-shadow:  rgba(255, 255, 255, 0.29);
+}
+
+#latitude,#longitude,#latitude2,#longitude2{
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 90px;
+    font-size: 1.3rem;
+}
+.latlon,.latlon2{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+#getlat,#getlat2{
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 63px;
+}
+#getlon,#getlon2{
+    color: white;
+    position: relative;
+    left: 550px;
+    bottom: 63px;
+}
+#getlon5{
+    color: white;
+    position: relative;
+    left: 550px;
+    bottom: 63px;
+}
+
+#latitude3,#longitude3{
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 90px;
+    font-size: 1.3rem;
+}
+.latlon3{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+#getlat3{
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 63px;
+}
+#getlon3{
+    color: white;
+    position: relative;
+    left: 550px;
+    bottom: 63px;
+}

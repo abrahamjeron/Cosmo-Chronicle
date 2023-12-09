@@ -1,0 +1,57 @@
+*{
+    font-family: 'Space Grotesk';
+}
+body{
+    overflow: hidden;
+    background-image: url("./Images/Cosmic\ info.svg");
+    background-size: cover;
+}
+#logo{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 5.2px;
+}
+nav{
+    position: relative;
+    left: 63%;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    transition: all 0.7;
+}
+nav a:hover{
+    color: #d410ee;
+    transition: all 0.7s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+p{
+    position: relative;
+    top: 250px;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 5.2px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+#start-btn{
+    background: linear-gradient(268deg, #9a005c -22.31%, rgba(8, 14, 180, 0.371) 113.18%, rgba(8, 14, 180, 0.687) 113.18%);
+    border-radius: 18px;
+    padding: 7px 30px 7px 30px;
+    letter-spacing: 4px;
+    position: relative;
+    top: 300px;
+    left: 39%;
+    transition: all 0.5s;
+}
+#start-btn:hover{
+    background-color:#7000e8 ;
+}

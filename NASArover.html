@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmo Chronicle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./NASArover.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html" id="logo">Cosmo Chronicle</a>
+    </nav>
+    <div class="nasaimg">
+        <span id="nasaimg"></span>
+    </div>
+    <div><h1>try</h1></div>
+    <div class="sidedescription">
+        <h2>NASA's Rover Pictures</h2>
+        <div>Rover Name: <span id="title"></span> </div>
+        <div>Camera: <span id="camera"></span> <span id="fullname"></span></div>
+        <div>Earth Date: <span id="date">07/12/2023</span></div>
+        <div>MArs's Date: Sol<span id="marsdate">07/12/2023</span></div>
+    </div>
+    <div class="aboutimg">
+        <h1>About the page:</h1>
+        <span id="imgdescription">
+            <p>Enter any date after year 2014 to <br> see the picture took on that <br> particular date</p>
+        </span>
+    </div>
+    <div class="params">
+        <label id="dateenter" for="enterdate">Enter Date (YYYY-MM-DD): </label>
+        <input type="text" placeholder="2017-07-12" id="enterdate">
+        <button onclick="fetchMarsPhotos()" id="getphoto">Get Mars Photos</button>
+    </div>
+    <div class="Description">
+        <h2>About the Image</h2>
+       <p id="description">The <span id='rovername'></span> rover, a marvel of robotic exploration, landed on Mars on <span id="landingdate"></span> and has since been at the forefront of scientific discovery. Developed by NASA, <span id="rovername"></span> is part of the Mars Science Laboratory mission, tasked with exploring the Martian surface to better understand its geology and assess the potential for past microbial life. Equipped with advanced instruments and tools, including a sophisticated camera system and a drill for collecting samples, <span id="rovername"></span> has been instrumental in uncovering valuable data about the Red Planet's history and habitability. Its remarkable longevity and ongoing mission make <span id="rovername"></span> a pioneering force in our quest to unravel the mysteries of Mars.</p>
+        <button id="tryagain">Try Again</button>
+    </div>
+<script src="./scripts/NASArover.js"></script>
+</body>
+</html>
